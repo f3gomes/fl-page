@@ -19,17 +19,17 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/blog",
   },
-  {
-    id: 2.3,
-    title: "Clientes",
-    newTab: false,
-    path: "/docs",
-  },
+  // {
+  //   id: 2.3,
+  //   title: "Clientes",
+  //   newTab: false,
+  //   path: "/docs",
+  // },
   {
     id: 3,
     title: "Parceiros",
     newTab: false,
-    path: "/docs",
+    path: "/#partners",
     // submenu: [
     //   {
     //     id: 31,
