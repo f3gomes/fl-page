@@ -53,7 +53,7 @@ const Footer = () => {
                   contato
                 </p>
                 <a
-                  href="#"
+                  href="mailto:daniel.oliveira@fortallink.com"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
                   daniel.oliveira@fortallink.com
