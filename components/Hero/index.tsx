@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+// import { useState } from "react";
 
 const Hero = () => {
-  const [email, setEmail] = useState("");
+  // const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,8 +22,10 @@ const Hero = () => {
                 Garantia, Qualidade e o Melhor Preço!
               </h1>
               <p>
-                "A qualidade nunca se obtém por acaso, ela é sempre o resultado
-                do esforço inteligente".
+                {
+                  "'A qualidade nunca se obtém por acaso, ela é sempre o resultado do esforço inteligente'"
+                }
+                .
               </p>
 
               <div className="mt-10">

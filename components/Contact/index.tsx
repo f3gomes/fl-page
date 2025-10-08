@@ -128,15 +128,15 @@ const Contact = () => {
                       htmlFor="default-checkbox"
                       className="flex max-w-[425px] cursor-pointer pl-5 select-none"
                     >
-                      Ao clicar na caixa de seleção, você concorda com o uso dos
-                      termos do nosso "Formulário" E consente o uso de cookies
-                      no navegador.
+                      {
+                        "Ao clicar na caixa de seleção, você concorda com o uso dos termos do nosso 'Formulário' E consente o uso de cookies no navegador."
+                      }
                     </label>
                   </div>
 
                   <button
                     aria-label="send message"
-                    className="w-44 justify-center cursor-pointer hover:bg-blackho dark:bg-btndark inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out"
+                    className="hover:bg-blackho dark:bg-btndark inline-flex w-44 cursor-pointer items-center justify-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out"
                   >
                     Enviar
                     <svg
